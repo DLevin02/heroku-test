@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
 
+gem 'figaro'
+gem 'fog-aws'
 gem 'carrierwave'
 gem 'faker'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
